@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 
   if (laser.isConnected())
   {
-    ROS_INFO("Connected to laser.");
+    
 
     laser.login();
     cfg = laser.getScanCfg();
